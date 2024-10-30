@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import api from "../../services/api";
 import { Task } from "@/services/types";
-import { log } from "console";
 
 export default function TasksPage() {
   const [tasks, setTasks] = useState<Task[]>([]);
